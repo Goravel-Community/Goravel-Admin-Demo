@@ -2,11 +2,12 @@ module goravel
 
 go 1.22.0
 
-replace github.com/onlinedigital/goravel-admin => ../
+replace github.com/onlinedigital/goravel-admin => ../goravel-admin
 
 require (
 	github.com/goravel/framework v1.13.9
 	github.com/goravel/gin v1.1.7
+	github.com/onlinedigital/goravel-admin v0.0.0-20240503160402-81d1189a3643
 	github.com/stretchr/testify v1.9.0
 	google.golang.org/grpc v1.63.2
 )
@@ -113,7 +114,6 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/montanaflynn/stats v0.7.1 // indirect
 	github.com/ncruces/go-strftime v0.1.9 // indirect
-	github.com/onlinedigital/goravel-admin v0.0.0-20240503160402-81d1189a3643 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.0 // indirect
 	github.com/opencontainers/runc v1.1.12 // indirect
