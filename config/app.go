@@ -1,6 +1,7 @@
 package config
 
 import (
+	goravel_admin "github.com/goravel-community/goravel-admin"
 	"github.com/goravel/framework/auth"
 	"github.com/goravel/framework/cache"
 	"github.com/goravel/framework/console"
@@ -22,7 +23,6 @@ import (
 	"github.com/goravel/framework/testing"
 	"github.com/goravel/framework/validation"
 	"github.com/goravel/gin"
-	goravel_admin "github.com/onlinedigital/goravel-admin"
 
 	"goravel/app/providers"
 )

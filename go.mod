@@ -2,12 +2,12 @@ module goravel
 
 go 1.22.0
 
-replace github.com/onlinedigital/goravel-admin => ../goravel-admin
+replace github.com/goravel-community/goravel-admin => ../goravel-admin
 
 require (
+	github.com/goravel-community/goravel-admin v0.0.0-20240503160402-81d1189a3643
 	github.com/goravel/framework v1.13.9
 	github.com/goravel/gin v1.1.7
-	github.com/onlinedigital/goravel-admin v0.0.0-20240503160402-81d1189a3643
 	github.com/stretchr/testify v1.9.0
 	google.golang.org/grpc v1.63.2
 )
