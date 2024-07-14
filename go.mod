@@ -31,6 +31,7 @@ require (
 	github.com/Azure/go-autorest/tracing v0.6.0 // indirect
 	github.com/RichardKnop/logging v0.0.0-20190827224416-1a693bdd4fae // indirect
 	github.com/RichardKnop/machinery/v2 v2.0.13 // indirect
+	github.com/a-h/templ v0.2.747 // indirect
 	github.com/atotto/clipboard v0.1.4 // indirect
 	github.com/aws/aws-sdk-go v1.54.11 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect

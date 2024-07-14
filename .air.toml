@@ -4,7 +4,7 @@ tmp_dir = "storage/temp"
 [build]
   bin = "./storage/temp/main.exe"
   cmd = "go build -o ./storage/temp/main.exe ."
-  delay = 1000
+  delay = 400
   exclude_dir = ["storage", "database", ".git"]
   exclude_file = []
   exclude_regex = []
@@ -17,6 +17,8 @@ tmp_dir = "storage/temp"
   log = "build-errors.log"
   send_interrupt = false
   stop_on_error = true
+  rerun = true
+  rerun_delay = 500
 
 [color]
   app = ""
